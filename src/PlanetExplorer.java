@@ -39,7 +39,13 @@ public class PlanetExplorer {
 			coordinates[0]++;
 			return coordinates[0]+ ", "+coordinates[1]+", "+facing;
 		}
+		else if(command==b && facing=="N"){
+			coordinates[1]--;
+			return coordinates[0]+ ", "+coordinates[1]+", "+facing;
+		}
+		else
+			return "";
 		
-		return null;
+		
 	}
 }
