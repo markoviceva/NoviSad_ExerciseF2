@@ -43,6 +43,12 @@ public class PlanetExplorer {
 			coordinates[1]--;
 			return coordinates[0]+ ", "+coordinates[1];
 		}
+		else if(command=="fl"){
+			coordinates[0]++;
+			facing="E";
+			return coordinates[0]+ ", "+coordinates[1] +", "+facing;
+			
+		}
 		else
 			return "";
 		
