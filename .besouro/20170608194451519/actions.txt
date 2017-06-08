@@ -126,3 +126,13 @@ RefactoringAction 1496946762522 TestPlanetExplorer.java RENAME test_Komanda_l()=
 EditAction 1496946870648 TestPlanetExplorer.java 719 3 9 3
 EditAction 1496946873849 PlanetExplorer.java 1692 3 4 0
 EditAction 1496946954784 PlanetExplorer.java 1822 3 4 0
+UnitTestCaseAction 1496946965614 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946965617 TestPlanetExplorer.test_Komanda_fl OK
+RefactoringAction 1496946983082 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496946985620 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1496946986650 TestPlanetExplorer.java RENAME test_=>void test_ko FIELD
+RefactoringAction 1496946990185 TestPlanetExplorer.java RENAME test_ko=>void test_Komanda FIELD
+RefactoringAction 1496946991718 TestPlanetExplorer.java RENAME test_Komanda=>void test_Komanda_ FIELD
+RefactoringAction 1496946993257 TestPlanetExplorer.java RENAME test_Komanda_=>void test_Komanda_bl FIELD
+RefactoringAction 1496946994779 TestPlanetExplorer.java RENAME test_Komanda_bl=>void test_Komanda_bl() METHOD
+EditAction 1496947143228 PlanetExplorer.java 1949 3 4 0
