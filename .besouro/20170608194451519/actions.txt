@@ -150,3 +150,5 @@ RefactoringAction 1496947220246 TestPlanetExplorer.java RENAME test_Komanda=>voi
 RefactoringAction 1496947222278 TestPlanetExplorer.java RENAME test_Komanda_=>void test_Komanda_r FIELD
 RefactoringAction 1496947228304 TestPlanetExplorer.java RENAME test_Komanda_r=>void test_Komanda_r() METHOD
 EditAction 1496947249964 TestPlanetExplorer.java 994 5 12 4
+CompilationAction 1496947253059 TestPlanetExplorer.java
+EditAction 1496947331753 TestPlanetExplorer.java 1129 5 15 5

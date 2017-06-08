@@ -34,7 +34,9 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void test_Komanda_r(){
-		PlanetExplorer explorer=
+		PlanetExplorer explorer=new PlanetExplorer(0,0,"N");
+		String position=explorer.executeCommand("r");
+		assertEquals("Not expcted position","0, 0, W",position);
 	}
 	
 }
