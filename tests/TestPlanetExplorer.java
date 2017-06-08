@@ -43,8 +43,13 @@ public class TestPlanetExplorer {
 	public void test_Komanda_frr()throws PlanetExplorerException{
 		PlanetExplorer explorer=new PlanetExplorer(0,0,"N");
 		String position=explorer.executeCommand("frr");
-		
-		
+	}
+	
+	@Test
+	public void test_Prepreka_ff()throws PlanetExplorerException{
+		PlanetExplorer explorer=new PlanetExplorer(0,0, "N");
+		String position=explorer.executeCommand("ff");
+		assertEquals("Not expectes position","(2, 0, N)(5,5)(5,7)",position);
 	}
 	
 }
