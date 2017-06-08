@@ -53,6 +53,10 @@ public class PlanetExplorer {
 			facing="E";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;	
 		}
+		else if(command=="r"){
+			facing="W";
+			return coordinates[0]+ ", "+coordinates[1] +", "+facing;
+		}
 		
 		else
 			return "";
