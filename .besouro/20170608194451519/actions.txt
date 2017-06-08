@@ -116,3 +116,11 @@ RefactoringAction 1496946527413 TestPlanetExplorer.java RENAME test_Kretanje_Kom
 RefactoringAction 1496946528439 TestPlanetExplorer.java RENAME test_Kretanje_Komanda_fff=>void test_Kretanje_Komanda_ffff FIELD
 RefactoringAction 1496946529959 TestPlanetExplorer.java RENAME test_Kretanje_Komanda_ffff=>void test_Kretanje_Komanda_ffff() METHOD
 EditAction 1496946656662 TestPlanetExplorer.java 726 3 9 3
+RefactoringAction 1496946713712 TestPlanetExplorer.java REMOVE test_Kretanje_Komanda_ffff() METHOD
+RefactoringAction 1496946723846 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496946726384 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1496946730403 TestPlanetExplorer.java RENAME test_=>void test_Komanda_ FIELD
+RefactoringAction 1496946732428 TestPlanetExplorer.java RENAME test_Komanda_=>void test_Komanda_l FIELD
+RefactoringAction 1496946740482 TestPlanetExplorer.java RENAME test_Komanda_l=>void test_Komanda_l() METHOD
+RefactoringAction 1496946762522 TestPlanetExplorer.java RENAME test_Komanda_l()=>void test_Komanda_fl() METHOD
+EditAction 1496946870648 TestPlanetExplorer.java 719 3 9 3

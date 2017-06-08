@@ -21,9 +21,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_Kretanje_Komanda_ffff(){
+	public void test_Komanda_fl(){
 		PlanetExplorer explorer=new PlanetExplorer(0,0,"N");
-		String position=explorer.executeCommand("ffff");
-		assertEquals("Not expected position","4, 0",position);
+		String position=explorer.executeCommand("fl");
+		assertEquals("Not expected position","1, 0, E", position);
 	}
+	
 }
