@@ -48,7 +48,7 @@ public class PlanetExplorer {
 			facing="E";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;	
 		}
-		else if(command=="fl"){
+		else if(command=="bl"){
 			coordinates[1]--;
 			facing="E";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;	
