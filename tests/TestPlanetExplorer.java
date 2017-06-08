@@ -17,6 +17,6 @@ public class TestPlanetExplorer {
 	public void test_Kretanje_Komanda_b(){
 	PlanetExplorer explorer=new PlanetExplorer(0,0,"N");
 	String position=explorer.executeCommand("b");
-	assertEquals("Not expected position","0,-1,N");
+	assertEquals("Not expected position","0,-1,N",position);
 	}
 }
