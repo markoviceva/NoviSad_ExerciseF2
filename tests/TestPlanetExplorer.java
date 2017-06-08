@@ -32,5 +32,9 @@ public class TestPlanetExplorer {
 		String position=explorer.executeCommand("bl");
 		assertEquals("Not expected position","0, -1, E",position);
 	}
+	@Test
+	public void test_Komanda_r(){
+		PlanetExplorer explorer=
+	}
 	
 }
