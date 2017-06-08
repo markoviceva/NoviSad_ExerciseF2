@@ -5,7 +5,13 @@
 
 public class PlanetExplorer {
 	private String f,l,r,b;
+	private String N,S,E,W;
 	private int[]coordinates={0,0};
+	public PlanetExplorer(int[]coordinates,String facing){
+		this.coordinates[0]=coordinates[0];
+		this.coordinates[1]=coordinates[1];	
+		
+	}
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 

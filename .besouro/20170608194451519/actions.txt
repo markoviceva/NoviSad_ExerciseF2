@@ -52,3 +52,4 @@ RefactoringAction 1496945622695 PlanetExplorer.java ADD String S FIELD
 RefactoringAction 1496945627273 PlanetExplorer.java ADD String E FIELD
 RefactoringAction 1496945627274 PlanetExplorer.java ADD String W FIELD
 EditAction 1496945660610 TestPlanetExplorer.java 367 2 4 1
+EditAction 1496945663724 PlanetExplorer.java 1513 3 4 0
