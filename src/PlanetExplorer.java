@@ -5,11 +5,12 @@
 
 public class PlanetExplorer {
 	private String f,l,r,b;
-	private String N,S,E,W;
+	private String facing;
 	private int[]coordinates={0,0};
 	public PlanetExplorer(int[]coordinates,String facing){
 		this.coordinates[0]=coordinates[0];
-		this.coordinates[1]=coordinates[1];	
+		this.coordinates[1]=coordinates[1];
+		this.facing=facing;
 		
 	}
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -34,8 +35,9 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		if(command==f){
+		if(command==f && facing=="N"){
 			coordinates[0]++;
+			return coordinates[0]+ ", "+coordinates[1]+", "+facing;
 		}
 		
 		return null;
