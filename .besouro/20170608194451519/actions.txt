@@ -85,3 +85,8 @@ EditAction 1496946267391 TestPlanetExplorer.java 503 2 6 2
 UnitTestCaseAction 1496946276880 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946276881 TestPlanetExplorer.test_Kretanje_Komanda_b FAIL
 EditAction 1496946298668 TestPlanetExplorer.java 512 2 6 2
+UnitTestCaseAction 1496946303679 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946303681 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496946307914 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946307916 TestPlanetExplorer.test_Kretanje_Komanda_b FAIL
+EditAction 1496946347659 PlanetExplorer.java 1708 3 4 0
