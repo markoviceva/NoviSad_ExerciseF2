@@ -44,3 +44,11 @@ RefactoringAction 1496945365498 PlanetExplorer.java RENAME PlanetExplorer()=>Pla
 RefactoringAction 1496945382035 PlanetExplorer.java REMOVE PlanetExplorer(int, int, String)/2 METHOD
 CompilationAction 1496945462401 TestPlanetExplorer.java
 EditAction 1496945462527 PlanetExplorer.java 1349 2 2 0
+RefactoringAction 1496945532343 PlanetExplorer.java ADD PlanetExplorer() METHOD
+RefactoringAction 1496945538404 PlanetExplorer.java RENAME PlanetExplorer()=>PlanetExplorer(int METHOD
+RefactoringAction 1496945543934 PlanetExplorer.java RENAME PlanetExplorer(int=>PlanetExplorer(int METHOD
+RefactoringAction 1496945614637 PlanetExplorer.java ADD String N FIELD
+RefactoringAction 1496945622695 PlanetExplorer.java ADD String S FIELD
+RefactoringAction 1496945627273 PlanetExplorer.java ADD String E FIELD
+RefactoringAction 1496945627274 PlanetExplorer.java ADD String W FIELD
+EditAction 1496945660610 TestPlanetExplorer.java 367 2 4 1
