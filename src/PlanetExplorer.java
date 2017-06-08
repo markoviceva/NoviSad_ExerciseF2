@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	private String f,l,r,b;
-	private String facing;
+	private String facing="N";
 	private int[]coordinates={0,0};
 	public PlanetExplorer(int[]coordinates,String facing){
 		this.coordinates[0]=coordinates[0];
