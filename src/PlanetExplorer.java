@@ -23,7 +23,7 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command)throws PlanetExplorerException{
 		
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -39,27 +39,32 @@ public class PlanetExplorer {
 			coordinates[0]++;
 			return coordinates[0]+ ", "+coordinates[1];
 		}
-		else if(command=="b"){
+		if(command=="b"){
 			coordinates[1]--;
 			return coordinates[0]+ ", "+coordinates[1];
 		}
-		else if(command=="fl"){
+		if(command=="fl"){
 			coordinates[0]++;
 			facing="E";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;	
 		}
-		else if(command=="bl"){
+		if(command=="bl"){
 			coordinates[1]--;
 			facing="E";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;	
 		}
-		else if(command=="r"){
+		if(command=="r"){
 			facing="W";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;
 		}
-		
-		else
-			return "";
+		if(command=="frr"){
+			coordinates[0]++;
+			facing="S";
+			return coordinates[0]+ ", "+coordinates[1] +", "+facing;
+		}
+		else{
+			throw new PlanetExplorerException();
+		}
 		
 		
 	}
