@@ -1,7 +1,7 @@
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time:20:45
+// Student ID:IT32-2015
 
 public class PlanetExplorer {
 	private String f,l,r,b;
@@ -61,6 +61,12 @@ public class PlanetExplorer {
 			coordinates[0]++;
 			facing="S";
 			return coordinates[0]+ ", "+coordinates[1] +", "+facing;
+		}
+		if(command=="ff"){
+			coordinates[0]+=2;
+			facing="N";
+			String[]prepreka={"(5,5),(5,7)"};
+			return "("+coordinates[0]+ ", "+coordinates[1] +", "+facing+")"+"("+")";
 		}
 		else{
 			throw new PlanetExplorerException();
