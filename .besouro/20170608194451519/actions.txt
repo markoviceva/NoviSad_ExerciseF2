@@ -25,3 +25,13 @@ EditAction 1496944877515 TestPlanetExplorer.java 361 2 4 1
 CompilationAction 1496944881884 TestPlanetExplorer.java
 CompilationAction 1496944980596 TestPlanetExplorer.java
 EditAction 1496944980717 PlanetExplorer.java 1248 2 1 0
+RefactoringAction 1496945043753 PlanetExplorer.java ADD String fl FIELD
+RefactoringAction 1496945045312 PlanetExplorer.java RENAME fl=>String f FIELD
+RefactoringAction 1496945048881 PlanetExplorer.java ADD String l FIELD
+RefactoringAction 1496945053934 PlanetExplorer.java ADD String r FIELD
+RefactoringAction 1496945053936 PlanetExplorer.java ADD String bl FIELD
+RefactoringAction 1496945054960 PlanetExplorer.java RENAME bl=>String b FIELD
+RefactoringAction 1496945101182 PlanetExplorer.java ADD cordinates FIELD
+RefactoringAction 1496945121428 PlanetExplorer.java RENAME s=><initializer /1> null
+RefactoringAction 1496945144630 PlanetExplorer.java RENAME <initializer /1>=>int FIELD
+EditAction 1496945166534 PlanetExplorer.java 1349 2 2 0
