@@ -155,3 +155,14 @@ EditAction 1496947331753 TestPlanetExplorer.java 1129 5 15 5
 UnitTestCaseAction 1496947338614 TestPlanetExplorer.java OK
 UnitTestSessionAction 1496947338619 TestPlanetExplorer.test_Komanda_bl OK
 EditAction 1496947396836 PlanetExplorer.java 2053 3 4 0
+UnitTestCaseAction 1496947418012 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947418014 TestPlanetExplorer.test_Komanda_r OK
+UnitTestCaseAction 1496947426579 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947426581 TestPlanetExplorer.java OK
+RefactoringAction 1496947514308 TestPlanetExplorer.java ADD void tets FIELD
+RefactoringAction 1496947519340 TestPlanetExplorer.java RENAME tets=>void test_Komanda FIELD
+RefactoringAction 1496947522395 TestPlanetExplorer.java RENAME test_Komanda=>void test_Komanda_ FIELD
+RefactoringAction 1496947524942 TestPlanetExplorer.java RENAME test_Komanda_=>void test_Komanda_f FIELD
+RefactoringAction 1496947530968 TestPlanetExplorer.java RENAME test_Komanda_f=>void test_Komanda_frr FIELD
+RefactoringAction 1496947533013 TestPlanetExplorer.java RENAME test_Komanda_frr=>void test_Komanda_frr() METHOD
+EditAction 1496947699851 TestPlanetExplorer.java 1505 6 17 5
