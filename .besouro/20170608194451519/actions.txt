@@ -98,3 +98,6 @@ UnitTestSessionAction 1496946400602 TestPlanetExplorer.test_Kretanje_Komanda_b F
 UnitTestCaseAction 1496946405085 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946405087 TestPlanetExplorer.test_Kretanje_Komanda_b FAIL
 EditAction 1496946434535 PlanetExplorer.java 1688 3 4 0
+UnitTestCaseAction 1496946465129 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946465130 TestPlanetExplorer.test_Kretanje_Komanda_b FAIL
+EditAction 1496946482340 TestPlanetExplorer.java 508 2 6 2
