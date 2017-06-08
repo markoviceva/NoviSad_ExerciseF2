@@ -81,3 +81,4 @@ RefactoringAction 1496946006483 TestPlanetExplorer.java RENAME test_Kretanje_=>v
 RefactoringAction 1496946008003 TestPlanetExplorer.java RENAME test_Kretanje_Komanda=>void test_Kretanje_Komanda_ FIELD
 RefactoringAction 1496946011518 TestPlanetExplorer.java RENAME test_Kretanje_Komanda_=>void test_Kretanje_Komanda_b FIELD
 EditAction 1496946264191 PlanetExplorer.java 1738 3 4 0
+EditAction 1496946267391 TestPlanetExplorer.java 503 2 6 2
