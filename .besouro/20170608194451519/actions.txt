@@ -22,3 +22,6 @@ RefactoringAction 1496944424364 TestPlanetExplorer.java RENAME test_Kretanje_kom
 RefactoringAction 1496944429398 TestPlanetExplorer.java RENAME test_Kretanje_Komandaf=>void test_Kretanje_Komandaf() METHOD
 RefactoringAction 1496944440432 TestPlanetExplorer.java RENAME test_Kretanje_Komandaf()=>void test_Kretanje_Komanda_f() METHOD
 EditAction 1496944877515 TestPlanetExplorer.java 361 2 4 1
+CompilationAction 1496944881884 TestPlanetExplorer.java
+CompilationAction 1496944980596 TestPlanetExplorer.java
+EditAction 1496944980717 PlanetExplorer.java 1248 2 1 0
