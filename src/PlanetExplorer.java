@@ -37,11 +37,11 @@ public class PlanetExplorer {
 		 */
 		if(command=="f"){
 			coordinates[0]++;
-			return coordinates[0]+ ", "+coordinates[1]+", "+facing;
+			return coordinates[0]+ ", "+coordinates[1];
 		}
 		else if(command=="b"){
 			coordinates[1]--;
-			return coordinates[0]+ ", "+coordinates[1]+", "+facing;
+			return coordinates[0]+ ", "+coordinates[1];
 		}
 		else
 			return "";
